@@ -5,44 +5,42 @@ import java.util.Scanner;
 public class Principal {
     
     public static void main(String[] args) {
-        //Modificación del archivo principal.
-        Rational r1 = new Rational();
-        int a,b;
-
         Scanner consola = new Scanner(System.in);
+        int opc = 0;
+        do{
+            System.out.println("*******************");
+            System.out.println("TIPOS DE DATOS ABSTRACTOS");
+            System.out.println("*************************");
+            System.out.println("1) Rational");
+            System.out.println("2) Matriz");
+            System.out.println("3) Conjunto");
+            System.out.println("4) Persona");
+            System.out.println("5) Fecha");
+            System.out.println("6) Cadena");
+            System.out.println("7) Numerote");+
+            System.out.println("8) Cuenta cheques");
+            System.out.println("9) Punto");
+            System.out.println("10) Triangulo");
+            System.out.println("");
+            System.out.println("0) Salir");
 
-        System.out.println("Operaciones con Números Racionales");
-        System.out.println("==================================");
-
-        System.out.print("Introduce el numerador del Racional 1:");
-        a = consola.nextInt();
-        
-        System.out.print("Introduce el denominado del Racional 1:");
-        b = consola.nextInt();
-
-        r1=new Rational(a,b);
-
-
-        System.out.println(r1);
-
-        
-
-        System.out.print("Introduce el numerador del Racional 2:");
-        a = consola.nextInt();
-        
-        System.out.print("Introduce el denominado del Racional 2:");
-        b = consola.nextInt();
-
-        Rational r2 = new Rational(a,b);
-
-
-        System.out.println(r2);
-       
-
-        System.out.println("Suma = "+r1.toString()+"+"+r2.toString()+"="+r1.add(r1,r2));
-        System.out.println("Multiplica = "+r1.toString()+"*"+r2.toString()+"="+r1.mult(r1,r2));
-        System.out.println("¿Son Iguales? ="+r1+"== "+r2+r1.equal(r1,r2));
-
-        consola.close();
+            opc = consola.nextInt();
+            switch(opc){
+                case 1;
+                    AppRational.menu();
+                    break;
+                case 2;
+                case 3;
+                case 4;
+                case 5;
+                case 6;
+                case 7;
+                case 8;
+                case 9;
+                case 10;
+                default;
+                System.out.println("Valor incorrecto, intente de nuevo");
+            }
+        }while(opc != 0);
     }
 }
