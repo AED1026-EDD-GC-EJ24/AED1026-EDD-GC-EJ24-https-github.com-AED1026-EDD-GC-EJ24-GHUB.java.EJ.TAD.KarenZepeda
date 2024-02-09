@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Principal {
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         Scanner consola = new Scanner(System.in);
         int opc = 0;
         do{
@@ -17,7 +17,7 @@ public class Principal {
             System.out.println("4) Persona");
             System.out.println("5) Fecha");
             System.out.println("6) Cadena");
-            System.out.println("7) Numerote");+
+            System.out.println("7) Numerote");
             System.out.println("8) Cuenta cheques");
             System.out.println("9) Punto");
             System.out.println("10) Triangulo");
@@ -26,19 +26,23 @@ public class Principal {
 
             opc = consola.nextInt();
             switch(opc){
-                case 1;
+                case 1:
                     AppRational.menu();
                     break;
-                case 2;
-                case 3;
-                case 4;
-                case 5;
-                case 6;
-                case 7;
-                case 8;
-                case 9;
-                case 10;
-                default;
+                case 2:
+                    AppMatriz.menu();
+                    break;
+                case 3:
+                case 4:
+                case 5:
+                case 6:
+                    AppCadena.menu();
+                    break;
+                case 7:
+                case 8:
+                case 9:
+                case 10:
+                default:
                 System.out.println("Valor incorrecto, intente de nuevo");
             }
         }while(opc != 0);
