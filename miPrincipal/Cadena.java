@@ -34,7 +34,7 @@ public class Cadena{
     public boolean lleno(){
         return (tamanio==TOPE);
     }
-    public Cadena invertir(){
+    public Cadena invertir()  throws PosicionIlegalException{
         Cadena invertida = new Cadena();
         for(int i=tamanio-1;i>=0;i--){
             invertida.agregarFinal(cadena[i]);

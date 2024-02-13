@@ -33,6 +33,8 @@ public class Principal {
                     AppMatriz.menu();
                     break;
                 case 3:
+                    AppConjunto.menu();
+                    break;
                 case 4:
                 case 5:
                 case 6:

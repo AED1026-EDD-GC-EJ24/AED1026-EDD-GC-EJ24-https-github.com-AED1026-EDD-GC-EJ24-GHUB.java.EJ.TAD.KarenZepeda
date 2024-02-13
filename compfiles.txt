@@ -2,8 +2,10 @@
 ./miPrincipal/AppRational.java
 ./miPrincipal/Principal.java
 ./miPrincipal/Matriz.java
+./miPrincipal/Conjunto.java
 ./miPrincipal/PosicionIlegalException.java
 ./miPrincipal/AppMatriz.java
 ./miPrincipal/Cadena.java
 ./miPrincipal/Rational.java
+./miPrincipal/AppConjunto.java
 ./miTest/AppTest.java

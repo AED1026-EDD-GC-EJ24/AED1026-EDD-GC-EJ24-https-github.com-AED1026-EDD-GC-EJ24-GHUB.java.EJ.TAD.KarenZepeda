@@ -1,8 +1,8 @@
 package miPrincipal;
 public class AppCadena{
-    public static void menu(){
+    public static void menu() throws PosicionIlegalException  {
         System.out.println("***********************");
-        System.out.println("OPERACUIONES CON CADENA");
+        System.out.println("OPERACIONES CON CADENA");
         System.out.println("***********************");
         Cadena c = new Cadena();
         c.agregarFinal('K');
