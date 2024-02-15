@@ -8,7 +8,7 @@ public class Principal {
         Scanner consola = new Scanner(System.in);
         int opc = 0;
         do{
-            System.out.println("*******************");
+            System.out.println("*************************");
             System.out.println("TIPOS DE DATOS ABSTRACTOS");
             System.out.println("*************************");
             System.out.println("1) Rational");
@@ -44,6 +44,8 @@ public class Principal {
                 case 8:
                 case 9:
                 case 10:
+                    AppTriangulo.menu();
+                    break;
                 default:
                 System.out.println("Valor incorrecto, intente de nuevo");
             }

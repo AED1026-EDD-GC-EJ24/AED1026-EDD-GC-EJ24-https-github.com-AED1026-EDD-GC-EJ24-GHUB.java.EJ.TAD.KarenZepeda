@@ -10,6 +10,6 @@ public class AppPunto{
         p1.despliega();
         p2.leer();
         p2.despliega();
-        System.out.println("Distancia entre punto:"+);
+        System.out.println("Distancia entre punto:"+p1.distancia(p2));
     }
 }

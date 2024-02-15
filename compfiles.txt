@@ -1,11 +1,15 @@
+./miPrincipal/Punto.java
 ./miPrincipal/AppCadena.java
+./miPrincipal/AppPunto.java
 ./miPrincipal/AppRational.java
 ./miPrincipal/Principal.java
 ./miPrincipal/Matriz.java
+./miPrincipal/Triangulo.java
 ./miPrincipal/Conjunto.java
 ./miPrincipal/PosicionIlegalException.java
 ./miPrincipal/AppMatriz.java
 ./miPrincipal/Cadena.java
 ./miPrincipal/Rational.java
+./miPrincipal/AppTriangulo.java
 ./miPrincipal/AppConjunto.java
 ./miTest/AppTest.java
